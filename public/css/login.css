@@ -1,0 +1,135 @@
+body {
+    background-color: #9e55b9;
+    overflow: hidden;
+}
+
+
+
+.form1{
+    transition: all 1s;
+    position: absolute;
+    left: 50%;
+    top: 25vmin;
+    transform: translateX(-50%);
+    background-color: white;
+    border: solid black 1vmin;
+    border-radius: 10vmin;
+    border-bottom-left-radius: 5vmin;
+    border-bottom-right-radius: 5vmin;
+    width:90vmin;
+    height:60vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7vmin
+}
+
+.form1.act{
+    transition: all 1s;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.inpt{
+    border: solid black 0.4vmin;
+    border-radius: 1vmin;
+    background-color: white;
+    text-align: center;
+    color:black;
+    width: 70%;
+    height:8vmin;
+    font-size:4vmin;
+}
+
+.inpt::placeholder{
+    color:black;
+}
+
+.inpb{
+    transition: all 1s;
+    border: solid black 0.4vmin;
+    background-color: azure;
+    border-radius: 1vmin;
+    background-color: white;
+    text-align: center;
+    color:black;
+    width: 40%;
+    height:6vmin;
+    font-size:3vmin;
+}
+.inpb:hover{
+    transition: all 1s;
+    background-color: rgb(201, 204, 206);
+}
+
+.bortop{
+    user-select: none;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    color:rgb(0, 0, 0);
+    font-size:10vmin;
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing:1vmin;
+
+    transition: all 1s;
+    position:absolute;
+    background-color: #ffffff;
+    border-top: 1vmin solid rgb(0, 0, 0);
+    border-bottom: 1vmin solid rgb(0, 0, 0);
+    border-right: 1vmin solid rgb(0, 0, 0);
+    border-bottom-right-radius: 10vmin;
+    border-top-right-radius: 10vmin;
+    left:0;
+    top:2vmin;
+    height:20vmin;
+    animation: ease forwards 1s animSize;
+    cursor: pointer;
+}
+
+.bortop.act{
+    transition: all 1s;
+    left: -65vw;
+}
+
+.bortop2{
+    user-select: none;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    color:rgb(0, 0, 0);
+    font-size:10vmin;
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing:1vmin;
+    font-family: 'Poppins', sans-serif;
+
+    transition: all 1s;
+    position:absolute;
+    background-color: #ffffff;
+    border-top: 1vmin solid rgb(0, 0, 0);
+    border-bottom: 1vmin solid rgb(0, 0, 0);
+    border-left: 1vmin solid rgb(0, 0, 0);
+    border-bottom-left-radius: 10vmin;
+    border-top-left-radius: 10vmin;
+    right:-65vw;
+    top:2vmin;
+    height:20vmin;
+    animation: ease forwards 1s animSize;
+    cursor: pointer;
+}
+
+.bortop2.act{
+    transition: all 1s;
+    right: 0vmin;
+}
+
+
+@keyframes animSize{
+    to{
+        width: 68vw;
+    }
+}
+

@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(210, 162, 255);
+    height:90vh;
+}
+
+.welcomet{
+    user-select: none;
+    position:fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    left:50%;
+    transform: translateX(-50%);
+    top:4vmin;
+    height:15vmin;
+    width:60vw;
+    font-size:5vw;
+    font-family: 'Poppins', sans-serif;
+    border: solid 1vmin black;
+    padding-left: 16vw;
+    padding-right:16vw;
+    border-radius: 2vmin;
+    background-color: aliceblue;
+}
+
+.lowerbor{
+    margin-top: 15vmin;
+    padding:10vmin;
+    position:fixed;
+    left:50%;
+    transform: translate(-50%, -50%);
+    top:50%;
+    height: 60vh;
+    width:50vw;
+    font-size:4vmin;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8vmin;
+    border: solid black 0.5vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.bottomt{
+    transition: all 1s;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    cursor: pointer;
+    border:none;
+    font-size: 4vmin;
+    padding:1.5vw;
+    border-radius: 1vw;
+    border: solid rgb(142, 143, 143) 0.4vmin;
+
+}
+
+.bottomt:hover{
+    transition: all 0.5s;
+    background-color: rgb(209, 211, 212);
+    border-radius: 1.5vw;
+    border: solid black 0.4vmin;
+}
+
+.bar{
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:10vmin;
+    border-top: solid black 0.4vmin;
+    background-color: aliceblue;
+    animation: ease-in 1s anim;
+    overflow: hidden;
+} 
+
+img{
+    transition: all 1s;
+    width:4vmin;
+    height:4vmin;
+    margin-left:4vmin;
+    margin-right:4vmin;
+    border-radius:20%;
+    border: solid rgba(0,0,0) 0.3vmin;
+    padding:1vmin;
+}
+
+img:hover{
+    border-radius:100%;
+    background-color: rgb(169, 215, 255);
+}
+
+.spc-b{
+    border:none;
+    background-color: aliceblue;
+    cursor:pointer;
+    border-left: black solid 0.3vmin;
+}
+
+@keyframes anim{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@media (max-width: 120vmin) {
+    .bar {
+        left:0;
+        justify-content: flex-start;
+
+        overflow-x: auto;
+    }
+}

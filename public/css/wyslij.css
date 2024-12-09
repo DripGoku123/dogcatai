@@ -1,0 +1,88 @@
+body {
+    background-color: #9e55b9;
+    overflow: hidden;
+}
+
+#thing2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+textarea{
+    text-align: left;
+    border:solid black 0.4vmin;
+    width:75vmin;
+    min-width:60vmin;
+    max-width: 90vmin;
+    min-height: 25vmin;
+    max-height: 60vmin;
+    height:40vh;
+    font-size:4vmin;
+}
+textarea:focus{
+    outline:none;
+}
+textarea::placeholder{
+    color:black;
+    font-size:4vmin;
+}
+.inp3 {
+    text-align: center;
+    width:30vmin;
+    height: 8vmin;
+    font-size:3vmin;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 1.4vmin;
+    border: rgb(0, 0, 0) 0.4vmin solid;
+    cursor:pointer;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.inp3:hover{
+    background-color: #000000;
+    border: 0.4vmin solid rgba(255, 255, 255, 0);
+    color:white
+}
+
+#thing{
+    top:5vmin;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#borderr{
+    border:black solid 0.4vmin;
+    width:90vmin;
+    height:70vh;
+}
+
+.border2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom:solid black 0.4vmin;
+    margin-left:4vmin;
+    margin-right:4vmin;
+    height:20vmin
+}
+
+
+input[type="text"]{
+    width:40vmin;
+    height:5vmin;
+    border: solid black 0.4vmin;
+    border-radius:0.5vmin;
+    font-size:4vmin;
+    text-align: center;
+}
+
+input[type="text"]::placeholder{
+    text-align: center;
+    color: #000000;
+}

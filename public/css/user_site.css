@@ -1,0 +1,210 @@
+body {
+    background-color: #9e55b9;
+    overflow: hidden;
+}
+
+.setting{
+    position:absolute;
+    transition: all 1s;
+    top:1vmin;
+    left:1vmin;
+    width:4vmin;
+    height:4vmin;
+    border-radius:20%;
+    border: solid rgba(0,0,0) 0.3vmin;
+    padding:1vmin;
+    cursor:pointer;
+    user-select: none;
+    background-color: white;
+}
+.setting img{
+    width:4vmin;
+    height:4vmin;
+}
+
+.setting:hover{
+    border-radius:100%;
+    background-color: rgb(169, 215, 255);
+}
+
+.infor{
+    position:absolute;
+    background-color: white;
+    width:2vmin;
+    height:2vmin;
+    border-radius:20%;
+    border: solid rgb(255, 0, 0) 0.3vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    top:5.5vmin;
+    left:5.5vmin;
+    user-select: none;
+    font-family: 'Digital-7', sans-serif;
+    color: red;
+}
+
+button{
+    border:none;
+    background-color: transparent;
+}
+
+.logout{
+    transition: all 1s;
+    display:flex;
+    align-items:center;
+    flex-direction: row;
+    justify-content: center;
+    position:absolute;
+    right:1vmin;
+    top: 1vmin;
+    height: 4vmin;
+    font-size:2vmin;
+    border: solid black 0.3vmin;
+    border-radius:3vmin;
+    padding:1vmin;
+    background-color: white;
+    user-select: none;
+}
+
+.logout img{
+    margin-left:2vmin;
+    margin-right:2vmin;
+    width: 4vmin;
+    height: 4vmin;
+}
+
+.logout:hover{
+    background-color: rgb(175, 60, 60);
+    border-radius:1vmin;
+    color: white;
+}
+#textm{
+    margin-left: 2vmin;
+}
+
+.bordertop{
+    position:absolute;
+    background-color: rgb(216, 230, 243);
+    border-bottom: solid black 0.4vmin;
+    left:0;
+    top:0;
+    height:9vmin;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vmin;
+    font-family: 'Georgia', serif;
+    user-select:none;
+}
+
+.borderleft{
+    position:absolute;
+    background-color: rgb(216, 230, 243);
+    border-right: solid black 0.4vmin;
+    height:100%;
+    width: 9vmin;
+    left:0;
+    top:0;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.object{
+    transition: all 1s;
+    width:8vmin;
+    height:8vmin;
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 0.2vmin;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.object:hover{
+    background-color: rgb(146, 155, 163);
+}
+
+.object2{
+    width:8vmin;
+    height:12vmin;
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
+}
+
+.objecta{
+    transition: all 1s;
+    width:8vmin;
+    height:8vmin;
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(255, 0, 0) 0.2vmin;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.objecta:hover{
+    background-color: rgb(170, 146, 146);
+}
+
+.b{
+    right:0;
+    bottom:0;
+    border: none;
+    width:1vmin;
+    height:1vmin;
+    border-radius: 100%;
+    background-color: red;
+}
+
+.imgob{
+    width:5vmin;
+    height:5vmin;
+
+}
+
+.coolobject {
+    background-color: whitesmoke;
+    border: solid black 0.4vmin;
+    border-radius: 1vmin;
+    position: absolute;
+    top: 20vmin;
+    left: 20vmin;
+    width: calc(100% - 31vmin);
+    height: calc(100% - 31vmin);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.main{
+    font-size: 6vmin;
+    margin-bottom:5vmin;
+}
+
+.main2{
+    font-size: 3vmin;
+}
+
+.bor{
+    transition: all 1s;
+    border: solid black 0.3vmin;
+    padding: 1vmin;
+    border-radius: 1vmin;
+    font-size: 2vmin;
+    cursor: pointer;
+}
+
+.bor:hover{
+    background-color: rgb(199, 225, 248);
+}
